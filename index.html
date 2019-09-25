@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
     <!-- font awsome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.css">
     <!-- main css -->
     <link rel="stylesheet" href="./css/index.css">
 
@@ -22,11 +25,11 @@
     <nav class="nav">
         <div class="nav__content">
             <h1 class="nav__h1"><a href="#">
-                        Hous
-                        <span>
-                            ing
-                        </span> 
-                    </a>
+                    Hous
+                    <span>
+                        ing
+                    </span>
+                </a>
             </h1>
             <ul>
                 <li>
@@ -53,6 +56,29 @@
 
     </nav>
     <section class="carousel">
+        <div class="owl-carousel owl-theme">
+            <div class="item bg1">
+                <img src="./img/b1.jpg" alt="">
+                <h2>LOREM IPSUM AMET</h2>
+                <p>Lorem ipsum dolor sit, consectetur adiping elit.</p>
+            </div>
+            <div class="item bg2">
+                <img src="./img/b2.jpg" alt="">
+                <h2>DOLOR SIT HATANT MORBI</h2>
+                <p>Quis autem vel eum iure reprehenderit quivol.</p>
+            </div>
+            <div class="item bg3">
+                <img src="./img/b3.jpg" alt="">
+                <h2>QUIS AUTEM VE EUM IURE</h2>
+                <p>Excepteur sint ocecat cupid proident, deserunt.</p>
+            </div>
+            <div class="item bg4">
+                <img src="./img/b4.jpg" alt="">
+                <h2>QUIS AUTEM VE EUM IURE</h2>
+                <p>Excepteur sint ocecat cupid proident, deserunt.</p>
+            </div>
+        </div>
+
 
     </section>
     <section class="about">
@@ -85,6 +111,22 @@
     <footer class="footer">
 
     </footer>
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
+    </script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items: 1,
+            loop: true,
+            nav: true, // mũi tên
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true
+        });
+    </script>
+
 </body>
 
 </html>

@@ -74,3 +74,56 @@ figure {
     margin-left: -1.6rem;
     color: #00cdce;
 }
+
+
+/* carousel */
+
+.carousel {
+    position: relative;
+    color: white
+}
+
+.item img {
+    display: block;
+    width: 100%;
+}
+
+.item h2 {
+    position: absolute;
+    top: 48%;
+    width: 100%;
+    font-size: 5rem;
+    text-align: center
+}
+
+.item p {
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    color: #d3d8d8;
+}
+
+.owl-nav button:first-child span {
+    font-size: 10rem;
+    color: white;
+    position: absolute;
+    top: 43%;
+    left: 5%;
+}
+
+.owl-nav button:nth-child(2) span {
+    font-size: 10rem;
+    color: white;
+    position: absolute;
+    top: 43%;
+    right: 5%;
+}
+
+.owl-dots {
+    position: absolute;
+    bottom: 23%;
+    left: 48%;
+}
