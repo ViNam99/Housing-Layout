@@ -198,3 +198,38 @@ figure {
     font-size: 1.5rem;
     line-height: 3rem
 }
+
+
+/* number */
+
+.number {
+    background-color: #00cdce
+}
+
+.number h3 {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+    padding: 5rem 0;
+}
+
+.number__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.number__content p:first-child {
+    font-size: 5.6rem;
+    color: white;
+    letter-spacing: 0.5rem
+}
+
+.number__content p:last-child {
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    margin-top: 1.2rem
+}
