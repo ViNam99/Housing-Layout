@@ -92,13 +92,13 @@ figure {
     position: absolute;
     top: 48%;
     width: 100%;
-    font-size: 5rem;
+    font-size: 6rem;
     text-align: center
 }
 
 .item p {
     position: absolute;
-    top: 55%;
+    top: 58%;
     width: 100%;
     text-align: center;
     font-size: 24px;
