@@ -10,6 +10,7 @@ html,
 body {
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px
 }
 
 header,
@@ -32,7 +33,7 @@ figure {
     right: 0;
     z-index: 999;
     width: 100%;
-    background-color: rgba(25, 25, 25, 0.9);
+    background-color: rgba(25, 25, 25, 0.8);
 }
 
 .nav__content {
@@ -131,4 +132,69 @@ figure {
     position: absolute;
     bottom: 23%;
     left: 48%;
+}
+
+
+/* about */
+
+.about {
+    margin: 6rem 0;
+}
+
+.about__grid h3 {
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 500;
+    margin-bottom: 6rem
+}
+
+.about__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 3rem
+}
+
+.about__content i {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    line-height: 10rem;
+    font-size: 2rem;
+}
+
+.about__content i:hover {
+    color: white;
+    background-color: #00cdce;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.about__content p {
+    color: #7f7777;
+    margin-top: 0.8rem;
+    line-height: 2.8rem
+}
+
+.about__intro {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto
+}
+
+.about__intro h4 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #00cdce;
+    font-weight: 600;
+}
+
+.about__intro p {
+    font-size: 1.5rem;
+    line-height: 3rem
 }
