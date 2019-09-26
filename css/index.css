@@ -470,3 +470,55 @@ figure {
     color: #d3d8d8;
     margin-top: 1.5rem
 }
+
+
+/* subscribe */
+
+.subscribe {
+    background-color: #00cdce;
+    color: white;
+    text-align: center;
+    margin-top: 5rem
+}
+
+.subscribe__content {
+    width: 60%;
+    margin: 0 auto
+}
+
+.subscribe h2 {
+    color: black;
+    font-size: 5rem;
+    padding: 5rem 0;
+}
+
+.subscribe__content p {
+    font-size: 1.6rem;
+    line-height: 3rem;
+    padding: 2rem 0;
+}
+
+.subscribe__content form input {
+    padding: 1.5rem;
+    width: 60%;
+    border: none;
+    font-size: 1.3rem;
+    margin-bottom: 2rem
+}
+
+.subscribe__content form button {
+    padding: 0.6rem 5rem;
+    font-size: 2.4rem;
+    background-color: black;
+    color: white;
+    border: 1px solid #000;
+    cursor: pointer;
+    margin-bottom: 2rem
+}
+
+.subscribe__content form button:hover {
+    color: #000;
+    background-color: #dfdfdf;
+    outline: none;
+    transition: all 0.5s
+}
