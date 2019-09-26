@@ -652,3 +652,59 @@ textarea:focus {
     color: black;
     transition: all 0.5s;
 }
+
+
+/* footer */
+
+.footer {
+    text-align: center;
+    margin-top: 5rem
+}
+
+.footer a {
+    text-decoration: none
+}
+
+.footer__head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00cdce;
+    color: white;
+    font-size: 1.6rem;
+    padding: 2rem
+}
+
+.footer__head a {
+    color: #fff;
+}
+
+.footer__head a:hover {
+    color: orangered;
+    transition: all 0.5s
+}
+
+.footer__head i {
+    padding: 1rem;
+    font-size: 2rem;
+    border: 1px solid #fff;
+    margin-right: 1.5rem
+}
+
+.footer__bottom {
+    font-size: 1.3rem;
+    padding: 1rem
+}
+
+.footer__bottom button {
+    border-radius: 0.3rem;
+    background-color: green;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem
+}
+
+.footer__bottom a {
+    color: black
+}
