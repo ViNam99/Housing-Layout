@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="./css/owl.theme.default.css">
     <!-- Jquery modal -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+    <!-- Lightgallery -->
+    <link rel="stylesheet" href="./css/lightgallery.min.css">
     <!-- main css -->
     <link rel="stylesheet" href="./css/index.css">
 
@@ -189,7 +192,82 @@
         </div>
     </section>
     <section class="portfolio">
+        <h2>Portfolio</h2>
+        <div id="lightgallery" class="portfolio__content ">
+            <a href="./img/img1.jpg">
+                <div class="portfolio__items">
 
+                    <img src="./img/img1.jpg" alt="">
+                    <div class="portfolio__bgblack">
+                        <div class="portfolio__bgblack--inside">
+                            <h3>GALLERY</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </a>
+            <a href="./img/img2.jpg">
+                <div class="portfolio__items">
+                    <img src="./img/img2.jpg" alt="">
+                    <div class="portfolio__bgblack">
+                        <div class="portfolio__bgblack--inside">
+                            <h3>GALLERY</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </a>
+            <a href="./img/img3.jpg">
+                <div class="portfolio__items">
+                    <img src="./img/img3.jpg" alt="">
+                    <div class="portfolio__bgblack">
+                        <div class="portfolio__bgblack--inside">
+                            <h3>GALLERY</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </a>
+            <a href="./img/img4.jpg">
+                <div class="portfolio__items">
+                    <img src="./img/img4.jpg" alt="">
+                    <div class="portfolio__bgblack">
+                        <div class="portfolio__bgblack--inside">
+                            <h3>GALLERY</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </a>
+            <a href="./img/img5.jpg">
+                <div class="portfolio__items">
+                    <img src="./img/img5.jpg" alt="">
+                    <div class="portfolio__bgblack">
+                        <div class="portfolio__bgblack--inside">
+                            <h3>GALLERY</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </a>
+            <a href="./img/img6.jpg">
+                <div class="portfolio__items">
+                    <img src="./img/img6.jpg" alt="">
+                    <div class="portfolio__bgblack">
+                        <div class="portfolio__bgblack--inside">
+                            <h3>GALLERY</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </a>
+        </div>
     </section>
     <section class="subscribe">
 
@@ -209,6 +287,7 @@
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
     </script>
+
     <!-- Waypoint -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <!-- Countup -->
@@ -230,6 +309,20 @@
     </script>
     <!-- Jquery modal -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <!-- Lightgallery -->
+    <script src="./js/lightgallery.min.js"></script>
+    <!-- Lightgallery plugin-->
+    <script src="./js/lg-thumbnail.min.js"></script>
+    <script src="./js/lg-fullscreen.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#lightgallery").lightGallery();
+        });
+    </script>
+
 </body>
 
 </html>
