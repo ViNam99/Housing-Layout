@@ -203,7 +203,8 @@ figure {
 /* number */
 
 .number {
-    background-color: #00cdce
+    background-color: #00cdce;
+    padding: 5rem 0;
 }
 
 .number h3 {
