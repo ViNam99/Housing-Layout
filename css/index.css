@@ -709,3 +709,33 @@ textarea:focus {
 .footer__bottom a {
     color: black
 }
+
+
+/* toTop */
+
+.toTop {
+    position: fixed;
+    right: 2rem;
+    bottom: 5rem
+}
+
+.toTop i {
+    font-size: 3rem;
+    line-height: 5rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 2px solid #0091A0;
+    text-align: center;
+    color: #0091A0
+}
+
+.toTop a {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.toTop .cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+}
