@@ -138,13 +138,13 @@ figure {
 /* about */
 
 .about {
-    margin: 6rem 0;
+    padding: 5rem 0;
 }
 
 .about__grid h3 {
     text-align: center;
     font-size: 5rem;
-    margin-bottom: 6rem
+    padding: 0 0 5rem 0;
 }
 
 .about__content {
@@ -255,6 +255,7 @@ figure {
 .blog__items {
     border-top: 5px solid #00cdce;
     background: #efefef;
+    padding: 5rem 0;
 }
 
 .blog__items img {
@@ -325,7 +326,7 @@ figure {
 .play {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 6rem 0;
+    padding: 5rem 0;
 }
 
 .play__video {
@@ -413,7 +414,7 @@ figure {
 .portfolio h2 {
     text-align: center;
     font-size: 5rem;
-    padding: 5rem 0
+    padding: 0 0 5rem 0;
 }
 
 .portfolio__items img {
@@ -592,7 +593,7 @@ figure {
 /* map */
 
 .map {
-    padding: 10rem 0;
+    padding: 8rem 0;
 }
 
 .map iframe {
@@ -605,7 +606,7 @@ figure {
 .contact h2 {
     text-align: center;
     font-size: 5rem;
-    margin-bottom: 5rem
+    padding: 0 0 5rem 0
 }
 
 .contact__content {
