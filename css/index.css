@@ -513,12 +513,72 @@ figure {
     color: white;
     border: 1px solid #000;
     cursor: pointer;
-    margin-bottom: 2rem
+    margin-bottom: 5rem
 }
 
 .subscribe__content form button:hover {
     color: #000;
     background-color: #dfdfdf;
     outline: none;
+    transition: all 0.5s
+}
+
+
+/* agents */
+
+.agents h2 {
+    color: black;
+    font-size: 5rem;
+    padding: 5rem 0;
+    text-align: center
+}
+
+.agents__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.agents__items {
+    text-align: center;
+}
+
+.agents__items img {
+    width: 100%;
+    display: block
+}
+
+.agents__items h3 {
+    color: #00cdce;
+    font-size: 2rem;
+}
+
+.agents__items p {
+    color: white;
+    font-size: 1.3rem;
+    margin: 1rem 0
+}
+
+.agents__inside {
+    background-color: rgba(0, 0, 0, 0.79);
+    padding: 3rem 0;
+}
+
+.agents__inside a {
+    text-decoration: none;
+    color: white;
+    padding: 0 1rem;
+}
+
+.agents__inside a i {
+    font-size: 3rem;
+    color: white;
+    border: black solid 0.1rem;
+}
+
+.agents__inside a i:hover {
+    background-color: orangered;
     transition: all 0.5s
 }
