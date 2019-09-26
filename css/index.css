@@ -555,6 +555,11 @@ figure {
     font-size: 2rem;
 }
 
+.agents__items h3:hover {
+    color: white;
+    cursor: default
+}
+
 .agents__items p {
     color: white;
     font-size: 1.3rem;
@@ -581,4 +586,12 @@ figure {
 .agents__inside a i:hover {
     background-color: orangered;
     transition: all 0.5s
+}
+
+
+/* map */
+
+.map iframe {
+    width: 100%;
+    padding: 5rem 0;
 }
