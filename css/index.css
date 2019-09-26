@@ -10,7 +10,8 @@ html,
 body {
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
-    letter-spacing: 1px
+    letter-spacing: 1px;
+    scroll-behavior: smooth;
 }
 
 header,
